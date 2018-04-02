@@ -1,0 +1,132 @@
+input {
+  padding: 0px;
+}
+
+select {
+  outline: none;
+  width: 140px;
+  height: 39px;
+  border: none;
+}
+
+option {
+  font-size: 20px;
+}
+
+:local(.clear:after) {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+:local(.btnPrimary) {
+  background-color: #ccc;
+}
+
+:local(.btnConfirm) {
+  background-color: #3292cf;
+}
+
+:local(.center) {
+  text-align: center;
+}
+
+:local(.calculator) {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+:local(.title) {
+  font-size: 18px;
+  color: #222;
+  text-align: center;
+  line-height: 120px;
+}
+
+:local(.condition) {
+  width: 100%;
+}
+
+:local(.conditionitem) {
+  float: left;
+  margin-right: 10px;
+}
+
+:local(.conditionitem) :local(.label) {
+  color: #888;
+}
+
+:local(.conditionitem) :local(.inputwrap) {
+  margin-top: 20px;
+  color: #263248;
+  border: 1px solid #d8dade;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+:local(.inputwrap) input {
+  padding-left: 10px;
+  outline: 0;
+  line-height: 39px;
+  border-style: none;
+  font-size: 16px;
+}
+  
+:local(.input150) {
+  width: 150px;
+}
+
+:local(.calculator) :local(.paybox) {
+  margin-top: 40px;
+  border: 1px solid pink;
+  width: 100%;
+  height: 80px;
+  background-color: #fff9f3;
+}
+
+:local(.paybox) p {
+  line-height: 80px;
+  text-align: center;
+  color: red;
+  font-size: 22px;
+  margin: 0px;
+}
+
+:local(.toolbtn) {
+  margin-top: 20px;
+  line-height: 50px;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+:local(.toolbtn) a {
+  font-size: 16px;
+  width: 160px;
+  color: #fff;
+  float: right;
+  margin-left: 15px;
+}
+
+:local(.iconMoney) {
+  display: inline-block;
+  width: 35px;
+  line-height: 39px;
+  border-right: 1px solid #d8dade;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+:local(.iconPercentage) {
+  display: inline-block;
+  width: 35px;
+  line-height: 39px;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-left: 1px solid #d8dade;
+}
